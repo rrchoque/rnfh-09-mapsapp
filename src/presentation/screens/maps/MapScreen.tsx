@@ -4,7 +4,6 @@ export const MapScreen = () => {
   return (
     <View>
       <Text>MapScreen</Text>
-      
     </View>
   )
 }
