@@ -1,12 +1,9 @@
-import { Text, View } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import { ActivityIndicator, Text, View } from 'react-native';
 
 export const LoadingScreen = () => {
   return (
-    <View>
-      <Text>LoadingScreen</Text>
-
-      <Icon name="rocket" size={30} color="#900" />
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <ActivityIndicator size={30} color='black' />
     </View>
   )
 }
